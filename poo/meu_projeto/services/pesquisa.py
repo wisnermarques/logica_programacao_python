@@ -1,7 +1,7 @@
-from services.impressao import impressao
+from utils.impressao import impressao
 
 def pesquisa(produtos):
-    print('###### Pesquisa de Produto ########')
+    print('####### Pesquisa de Produto ########')
     busca = input('Digite o código do produto que deseja buscar: ')
     achei = None
     for produto in produtos:

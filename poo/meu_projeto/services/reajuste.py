@@ -1,4 +1,4 @@
-from services.impressao import impressao
+from utils.impressao import impressao
 
 def reajuste_produto(produtos):
     print('###### Reajuste de Produto ########')
