@@ -1,4 +1,8 @@
-from services import cadastro, lista_produtos, pesquisa, reajuste_produto, venda_produto
+from services.lista_produtos import lista_produtos
+from services.cadastro import cadastro
+from services.pesquisa import pesquisa
+from services.vendas import venda_produto
+from services.reajuste import reajuste_produto
 
 produtos = []
 while True:
