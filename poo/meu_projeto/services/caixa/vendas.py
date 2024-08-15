@@ -1,4 +1,4 @@
-import impressao
+from utils.impressao import impressao
 
 def venda_produto(produtos):
     print('###### Venda de Produto ########')

@@ -1,4 +1,4 @@
-import impressao
+from utils.impressao import impressao
 
 def reajuste_produto(produtos):
     print('###### Reajuste de Produto ########')
@@ -13,6 +13,7 @@ def reajuste_produto(produtos):
             preco_reajustado = produto.reajuste(perc)
             produto.preco = preco_reajustado
             break
+    
     if achei is not None:
         impressao(achei)
     else:

@@ -1,4 +1,4 @@
-from impressao import impressao
+from utils.impressao import impressao
 
 def lista_produtos(produtos):
     print('\n ##### Lista de Produtos ####')

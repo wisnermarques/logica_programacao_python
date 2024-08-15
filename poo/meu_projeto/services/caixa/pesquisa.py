@@ -1,4 +1,4 @@
-from impressao import impressao
+from utils.impressao import impressao
 
 def pesquisa(produtos):
     print('###### Pesquisa de Produto ########')
@@ -8,7 +8,8 @@ def pesquisa(produtos):
         if busca == produto.codigo:
             achei = produto
             break
-        if achei is not None:
-            impressao(achei)
-        else:
-            print('Produto não encontrado!')
+
+    if achei is not None:
+        impressao(achei)
+    else:
+        print('Produto não encontrado!')
