@@ -35,10 +35,9 @@ while True:
     else:
         print('Opção inválida!')
 
-    sair = input('Digite s para sair ou enter para continuar: ')
-    if sair.upper() == 'S':
-        break
+        sair = input('Digite s para sair ou enter para continuar: ')
+        if sair.upper() == 'S':
+            break
 
-
-
-
+if __name__ == '__main__':
+    main()
