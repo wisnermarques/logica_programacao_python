@@ -10,3 +10,5 @@ class Produto:
     
     def reajuste(self, percentual: float):
         return self.preco + self.preco * percentual / 100
+    
+

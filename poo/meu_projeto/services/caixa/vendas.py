@@ -19,6 +19,7 @@ def venda_produto(produtos):
             perc = float(input('Digite o percentual do desconto: '))
             valor_desconto = produto.desconto(perc)
             break
+        
     if achei is not None and estoque:
         impressao(achei)
         print(f'Preço com desconto: {valor_desconto}')
