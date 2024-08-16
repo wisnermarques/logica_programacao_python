@@ -1,4 +1,5 @@
 from services.administracao.pesquisa_dados import pesquisa_cliente
+from services.administracao.pesquisa_dados import pesquisa_funcionario
 from utils.dados import impressao_dados
 from utils.cadastro_pessoa import cadastro_pessoa
 from services.administracao.cadastro import cadastro
@@ -44,6 +45,7 @@ def main():
             else:
                 print('Cliente não cadastrado!')
         elif opcao == 9:
+            funcionario = pesquisa_funcionario(funcionarios)
             impressao_dados(funcionarios, 2)
         else:
             print('Opção inválida!')
